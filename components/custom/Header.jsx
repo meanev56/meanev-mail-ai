@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React from 'react';
 import { Button } from '../ui/button';
 import SignInButton from './SignInButton';
-import { useUserDetail } from '@/app/provider';
+import { useUserDetail } from "../../app/providers"
 import Link from 'next/link';
 
 function Header() {
